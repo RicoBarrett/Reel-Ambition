@@ -13,7 +13,7 @@ public class CameraFollow : MonoBehaviour
     //makes sure the camera cannot leave the bounds of position 7 and -7 on the x axis 
     void Update()
     {
-        if (player.transform.position.x <= 2.1 & player.transform.position.x >= -2.1)
+        if (player.transform.position.x <= 0.31 & player.transform.position.x >= -0.31)
         {
             transform.position = player.transform.position + new Vector3(0, 1, -5);
         }
