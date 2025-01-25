@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3481727707527819042}
   - component: {fileID: 3481727707527819043}
-  - component: {fileID: 3481727707527819037}
   - component: {fileID: 1165779665500863906}
   - component: {fileID: 1700843806}
+  - component: {fileID: 5538685143886043793}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Manager
@@ -47,20 +47,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
---- !u!114 &3481727707527819037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3481727707527819040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea35d225ef29acc4795b86444da93303, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Hud: {fileID: 0}
-  PauseMenu: {fileID: 0}
 --- !u!114 &1165779665500863906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73,6 +59,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 847acc3c2bfb9294ea40d4a219e1aedd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  flowerPicked: 0
+  player: {fileID: 1178961457080722680, guid: fae9084a7d0e0fe4288bd8c503b382ee, type: 3}
 --- !u!114 &1700843806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85,3 +73,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4951196a0453cd540ba8a09a518d0347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5538685143886043793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3481727707527819040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bcc5eb621ffab34cacf04a7d35dd568, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerBubble: {fileID: 0}
+  bubbles: []
+  health: 100

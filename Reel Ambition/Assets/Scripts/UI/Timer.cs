@@ -7,7 +7,7 @@ public class Timer : MonoBehaviour
 {
     public TMP_Text text;
 
-    SceneManager sceneManager;
+    SceneController sceneController;
 
     double time = 9.00;
     float timer = 0;
@@ -17,7 +17,7 @@ public class Timer : MonoBehaviour
     void Start()
     {
         text = GetComponentInChildren<TMP_Text>();
-        sceneManager = GameObject.FindWithTag("Manager").GetComponent<SceneManager>();
+        sceneController = GameObject.FindWithTag("Manager").GetComponent<SceneController>();
     }
 
     // Update is called once per frame
@@ -31,7 +31,10 @@ public class Timer : MonoBehaviour
             check += 1;
 
             if (check >= 6)
+            {
                 time += .5;
+                check = 0;
+            }
             else
                 time += .1;
         }
@@ -40,7 +43,7 @@ public class Timer : MonoBehaviour
 
         if (time >= 17)
         {
-            sceneManager.LoadLevel();
+            sceneController.LoadLevel();
         }
     }
 

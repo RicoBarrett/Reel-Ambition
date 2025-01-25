@@ -5,19 +5,12 @@ using UnityEngine;
 public class Manager : MonoBehaviour
 {
     public bool flowerPicked;
-    public Vector3 spawnPosition;
     public GameObject player;
 
     // Start is called before the first frame update
     void Awake()
     {
-        player = GameObject.Find("Player");
-
         CheckGameController();
-
-        flowerPicked = false;
-
-        player.transform.position = spawnPosition;
     }
 
     void CheckGameController()
@@ -29,5 +22,10 @@ public class Manager : MonoBehaviour
         }
         
         DontDestroyOnLoad(gameObject);
+    }
+
+    public void SpawnPlayer(Vector3 pos)
+    {
+        Instantiate(player, pos, Quaternion.identity);
     }
 }
