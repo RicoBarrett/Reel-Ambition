@@ -279,14 +279,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 387230250, guid: 90271c5beb9bdc64b804b4da0ec3482b, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 387230249, guid: 90271c5beb9bdc64b804b4da0ec3482b, type: 3}
+      propertyPath: m_TargetCamera
+      value: 
+      objectReference: {fileID: 348291503}
     - target: {fileID: 8755543248236401297, guid: 90271c5beb9bdc64b804b4da0ec3482b, type: 3}
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8755543248236401308, guid: 90271c5beb9bdc64b804b4da0ec3482b, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 348291503}
     - target: {fileID: 8755543248236401309, guid: 90271c5beb9bdc64b804b4da0ec3482b, type: 3}
       propertyPath: m_Pivot.x
       value: 0
