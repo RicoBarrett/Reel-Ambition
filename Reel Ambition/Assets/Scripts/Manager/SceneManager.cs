@@ -7,7 +7,7 @@ public class SceneManager : MonoBehaviour
 {
     public void LoadLevel()
     {
-        Application.LoadLevel("DemoLevel");
+        Application.LoadLevel(0);
     }
 
     public void Quit()

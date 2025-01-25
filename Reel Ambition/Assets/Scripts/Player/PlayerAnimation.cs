@@ -55,16 +55,16 @@ public class PlayerAnimation : MonoBehaviour
 
         }
 
-        if (playerMovement.sprinting == true)
+        if (playerMovement.falling == true)
         {
 
-            engineAnimator.SetTrigger("SprintingTrigger");
+            engineAnimator.SetTrigger("FallingTrigger");
 
         }
 
-        if (playerMovement.sprinting == false)
+        if (playerMovement.falling == false)
         {
-            engineAnimator.ResetTrigger("SprintingTrigger");
+            engineAnimator.ResetTrigger("FallingTrigger");
 
         }
     }
