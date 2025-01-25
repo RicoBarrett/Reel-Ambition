@@ -80,9 +80,22 @@ public class Pause : MonoBehaviour
         GameObject.Find("Manager").GetComponent<SceneController>().LoadLevel();
     }
 
-    public void OnPointerEnter(PointerEventData eventData)
+    public void ButtonAnimationOne()
     {
-        
+        Animator animation = GameObject.Find("Quit").GetComponent<Animator>();
+        animation.SetBool("Hover", true);
+    }
+
+    public void ButtonAnimationTwo()
+    {
+        Animator animation = GameObject.Find("Play").GetComponent<Animator>();
+        animation.SetBool("Hover", true);
+    }
+
+    public void ButtonAnimationThree()
+    {
+        Animator animation = GameObject.Find("Resume").GetComponent<Animator>();
+        animation.SetBool("Hover", true);
     }
 
     public void EndButtonAnimation()
