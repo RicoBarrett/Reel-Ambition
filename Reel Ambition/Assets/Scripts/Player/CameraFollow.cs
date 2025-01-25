@@ -7,7 +7,7 @@ public class CameraFollow : MonoBehaviour
 
     void start()
     {
-  
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     //makes sure the camera cannot leave the bounds of position 7 and -7 on the x axis 

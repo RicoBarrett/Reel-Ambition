@@ -280,6 +280,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 387230249, guid: 90271c5beb9bdc64b804b4da0ec3482b, type: 3}
+      propertyPath: m_Looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 387230249, guid: 90271c5beb9bdc64b804b4da0ec3482b, type: 3}
+      propertyPath: m_AspectRatio
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 387230249, guid: 90271c5beb9bdc64b804b4da0ec3482b, type: 3}
       propertyPath: m_TargetCamera
       value: 
       objectReference: {fileID: 348291503}

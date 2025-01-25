@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1178961457080722660}
   - component: {fileID: 1178961457080722661}
   - component: {fileID: 1178961457080722662}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1454706203
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1406893614612507361, guid: 84c36f8a7c8db684aa38abf96ff6c591, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -112,6 +112,7 @@ MonoBehaviour:
   jumpEffect: 0
   slamAnimation: 0
   facingRight: 0
+  falling: 0
 --- !u!50 &1178961457080722660
 Rigidbody2D:
   serializedVersion: 4
@@ -237,7 +238,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1454706203
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 8456465849144358525, guid: b231bc626b26f6b4ba18368be264d81a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

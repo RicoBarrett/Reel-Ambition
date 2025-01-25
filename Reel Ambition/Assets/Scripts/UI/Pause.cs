@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
 public class Pause : MonoBehaviour
@@ -77,5 +78,15 @@ public class Pause : MonoBehaviour
     public void Play()
     {
         GameObject.Find("Manager").GetComponent<SceneController>().LoadLevel();
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        
+    }
+
+    public void EndButtonAnimation()
+    {
+
     }
 }
