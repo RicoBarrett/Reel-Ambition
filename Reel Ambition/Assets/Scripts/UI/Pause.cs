@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class Pause : MonoBehaviour
 {
@@ -12,18 +14,32 @@ public class Pause : MonoBehaviour
     [SerializeField]
     GameObject PauseMenu;
 
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    GameObject MainMenu;
+
+    public void Start()
     {
         Hud = GameObject.Find("HUD");
         PauseMenu = GameObject.Find("Pause");
+        MainMenu = GameObject.Find("MainMenu");
 
-        PauseMenu.SetActive(false);
+        if(SceneManager.GetActiveScene().name == "MainMenu")
+        {
+            Hud.SetActive(false);
+            PauseMenu.SetActive(false);
+        }
+        else if(SceneManager.GetActiveScene().name == "Demo Level") 
+        {
+            PauseMenu.SetActive(false);
+            MainMenu.SetActive(false);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
+
+
         if (Input.GetKeyUp(KeyCode.Escape) && !pause)
         {
             Debug.Log("pause");
@@ -52,5 +68,25 @@ public class Pause : MonoBehaviour
 
         Hud.SetActive(true);
         PauseMenu.SetActive(false);
+    }
+
+    public void Quit()
+    {
+        GameObject.Find("Manager").GetComponent<SceneController>().Quit();
+    }
+
+    public void Play()
+    {
+        GameObject.Find("Manager").GetComponent<SceneController>().LoadLevel();
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        
+    }
+
+    public void EndButtonAnimation()
+    {
+
     }
 }
