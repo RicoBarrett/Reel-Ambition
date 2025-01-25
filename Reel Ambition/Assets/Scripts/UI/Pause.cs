@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 public class Pause : MonoBehaviour
 {
@@ -100,6 +101,11 @@ public class Pause : MonoBehaviour
 
     public void EndButtonAnimation()
     {
+        GameObject[] buttons = GameObject.FindGameObjectsWithTag("Button");
 
+        foreach(GameObject button in buttons)
+        {
+            button.GetComponent<Animator>().SetBool("Hover", false);
+        }
     }
 }

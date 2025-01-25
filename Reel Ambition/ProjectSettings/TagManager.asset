@@ -12,6 +12,7 @@ TagManager:
   - Secretary
   - Checkpoint
   - Obstacle
+  - Button
   layers:
   - Default
   - TransparentFX
