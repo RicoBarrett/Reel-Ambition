@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Floor
   - Manager
+  - Coffee
+  - Soda
+  - Flower
+  - Secretary
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
