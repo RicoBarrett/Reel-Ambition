@@ -19,8 +19,6 @@ public class PlayerMovement : MonoBehaviour
     public float slamSpeed;
     public bool jumpEffect;
     public bool slamAnimation;
-    public float speedModifier;
-    public float turnTime;
     public bool facingRight;
 
     private float playerInput;
@@ -35,12 +33,10 @@ public class PlayerMovement : MonoBehaviour
 
         speed = 5f;
         jumpSpeed = 8f;
-        jumpCount = 3;
+        jumpCount = 1;
         dashSpeed = 10f;
         dashCount = 2;
         slamSpeed = -10f;
-        speedModifier = 1f;
-        turnTime = 0.05f;
 
         InvokeRepeating("DashCount", 0.0f, 1.0f);
     }
@@ -112,18 +108,12 @@ public class PlayerMovement : MonoBehaviour
 
         if (jumpAnimation == true)
         {
-            transform.GetChild(0).gameObject.SetActive(false);
-
             if (Input.GetKeyDown(KeyCode.S))
             {
                 playerBody.velocity = new Vector2(playerInput * speed, slamSpeed);
 
                 slamAnimation = true;
             }
-        }
-        else
-        {
-            transform.GetChild(0).gameObject.SetActive(true);
         }
     }
 
@@ -146,7 +136,7 @@ public class PlayerMovement : MonoBehaviour
             jumpAnimation = false;
             slamAnimation = false;
 
-            jumpCount = 3;
+            jumpCount = 1;
         }
     }
 
@@ -156,21 +146,6 @@ public class PlayerMovement : MonoBehaviour
         playerBody.velocity = new Vector2(playerInput * dashSpeed, 0);
         yield return new WaitForSeconds(0.24f);
         sprinting = false;
-        playerBody.gravityScale = 3.0f;
+        playerBody.gravityScale = 1.0f;
     }
-
-    IEnumerator TurnSpeed()
-    {
-        while (speedModifier < 1f)
-        {
-            speedModifier += Time.deltaTime * turnTime;
-            if (speedModifier > 1)
-            {
-                speedModifier = 1;
-            }
-            yield return null; 
-
-        }
-    }
-
 }
