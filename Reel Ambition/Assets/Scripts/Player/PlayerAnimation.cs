@@ -67,5 +67,18 @@ public class PlayerAnimation : MonoBehaviour
             engineAnimator.ResetTrigger("FallingTrigger");
 
         }
+
+        if (playerMovement.hurt == true)
+        {
+
+            engineAnimator.SetTrigger("HurtTrigger");
+
+        }
+
+        if (playerMovement.hurt == false)
+        {
+            engineAnimator.ResetTrigger("HurtTrigger");
+
+        }
     }
 }

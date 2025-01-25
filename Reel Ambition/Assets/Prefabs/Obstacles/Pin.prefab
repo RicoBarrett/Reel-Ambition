@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8851883985484421335}
   - component: {fileID: 3574707729037787362}
   - component: {fileID: 6227321935872576628}
+  - component: {fileID: 8294512900691544689}
   m_Layer: 0
   m_Name: Pin
   m_TagString: Untagged
@@ -72,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+  m_Sprite: {fileID: 2831275851053574401, guid: 684e6eb20a258ac4c8570d0e1af6428b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -98,3 +99,23 @@ MonoBehaviour:
   damage: 10
   manager: {fileID: 0}
   health: {fileID: 0}
+  cameraShake: {fileID: 0}
+--- !u!95 &8294512900691544689
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74996530041326688}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

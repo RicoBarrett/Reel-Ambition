@@ -6,6 +6,7 @@ public class CollideDamage : MonoBehaviour
 {
     public int damage;
     public GameObject manager;
+    public GameObject player;
     public Health health;
     public CameraShake cameraShake;
 
@@ -14,13 +15,13 @@ public class CollideDamage : MonoBehaviour
     {
         manager = GameObject.Find("Manager");
         health = manager.GetComponent<Health>();
-        cameraShake = GameObject.Find("Main Camera").GetComponent<CameraShake>();
+        player = GameObject.Find("Player");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -28,6 +29,14 @@ public class CollideDamage : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             health.ReduceHealth(damage);
+            StartCoroutine(HurtPlayer());
         }
+    }
+
+    IEnumerator HurtPlayer()
+    {
+        player.GetComponent<PlayerMovement>().hurt = true;
+        yield return new WaitForSeconds(0.5f);
+        player.GetComponent<PlayerMovement>().hurt = false;
     }
 }
