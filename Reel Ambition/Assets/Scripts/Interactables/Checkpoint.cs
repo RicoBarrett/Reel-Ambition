@@ -28,7 +28,7 @@ public class Checkpoint : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            manager.spawnPosition = checkpointPosition;
+            GameObject.Find("SpawnLocation").transform.position.Set(checkpointPosition.x, checkpointPosition.y, checkpointPosition.z);
         }
     }
 }

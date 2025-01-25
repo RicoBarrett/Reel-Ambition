@@ -6,6 +6,7 @@ using UnityEngine.Animations;
 
 public class Health : MonoBehaviour
 {
+    [SerializeField]
     GameObject PlayerBubble;
 
     [SerializeField]
@@ -17,6 +18,8 @@ public class Health : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        health = 100;
+
         bubbles = new GameObject[10];
 
         if (bubbles == null || bubbles.Length != 10)
@@ -24,36 +27,53 @@ public class Health : MonoBehaviour
             Debug.LogError("Bubbles array is not properly initialized.");
             return;
         }
-        for (int i = 0; i < 10; i++)
+
+        if (GameObject.Find("Bubble (1)") != null)
         {
-            string name = "Bubble (" + (i+1) + ")";
-            bubbles[i] = GameObject.Find(name);
-            if (bubbles[i] == null)
+            for (int i = 0; i < 10; i++)
             {
-                Debug.LogError("Bubble (" + i + ") not found!");
+                string name = "Bubble (" + (i + 1) + ")";
+                bubbles[i] = GameObject.Find(name);
+                if (bubbles[i] == null)
+                {
+                    Debug.LogError("Bubble (" + i + ") not found!");
+                }
             }
         }
-        PlayerBubble = GameObject.Find("PlayerBubble");
+
+        if (GameObject.Find("PlayerBubble") != null)
+            PlayerBubble = GameObject.Find("PlayerBubble");
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(health <= 0)
+        {
+            GetComponent<SceneController>().LoadMenu();
+        }
+        if (health > 100)
+            health = 100;
+
+        
         UpdateHealthBar();
+        BubbleShrink();
     }
 
     void UpdateHealthBar()
     {
         int check = health / 10;
-
-        for (int i = 0; i < bubbles.Length; i++)
+        if (bubbles[0] != null)
         {
-            Animator animator = bubbles[i].GetComponentInChildren<Animator>();
+            for (int i = 0; i < bubbles.Length; i++)
+            {
+                Animator animator = bubbles[i].GetComponentInChildren<Animator>();
 
-            if (check < i)
-                animator.SetBool("Pop", true);
-            else
-                animator.SetBool("Pop", false);
+                if (check < i)
+                    animator.SetBool("Pop", true);
+                else
+                    animator.SetBool("Pop", false);
+            }
         }
     }
 
@@ -62,7 +82,7 @@ public class Health : MonoBehaviour
         health -= minus;
     }
 
-    public void increaseHealth(int plus)
+    public void IncreaseHealth(int plus)
     {
         health += plus;
     }
@@ -71,4 +91,14 @@ public class Health : MonoBehaviour
     {
         health = 100;
     }
+
+    public void BubbleShrink()
+    {
+        float shrink = health / 1000;
+
+        if (PlayerBubble != null)
+            PlayerBubble.transform.localScale.Set(shrink, shrink, 0);
+
+    }
+
 }
