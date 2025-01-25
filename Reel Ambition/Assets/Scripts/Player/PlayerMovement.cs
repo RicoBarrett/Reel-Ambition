@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     public bool slamAnimation;
     public bool facingRight;
     public bool falling;
+    public bool hurt;
 
     private float playerInput;
     private Rigidbody2D playerBody;
@@ -50,7 +51,6 @@ public class PlayerMovement : MonoBehaviour
         Jump();
 
         FlipPlayer();
-
     }
 
     // Change velocity of rigidbody based on user input
