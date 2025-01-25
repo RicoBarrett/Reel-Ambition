@@ -12,6 +12,7 @@ public class SceneController : MonoBehaviour
      
     public void LoadLevel()
     {
+        GetComponent<Health>().ResetHealth();
         SceneManager.LoadScene(1);
     }
 
@@ -27,17 +28,7 @@ public class SceneController : MonoBehaviour
 
     private void OnLevelWasLoaded(int level)
     {
-        if (level == 0)
-        {
-            GetComponent<Health>().enabled = false;
-        }
-        else if(level == 1)
-        {
-            GetComponent<Health>().enabled = true;
-
-            GetComponent<Manager>().SpawnPlayer(GameObject.Find("SpawnLocation").transform.position);
-            GetComponent<Manager>().flowerPicked = false;
-        }
+        GetComponent<Health>().Start();
 
     }
 }

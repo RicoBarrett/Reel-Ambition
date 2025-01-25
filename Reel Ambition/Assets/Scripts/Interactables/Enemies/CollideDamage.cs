@@ -27,7 +27,6 @@ public class CollideDamage : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            cameraShake.shake = true;
             health.ReduceHealth(damage);
         }
     }
