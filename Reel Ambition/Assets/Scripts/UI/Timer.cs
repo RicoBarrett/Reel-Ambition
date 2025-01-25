@@ -34,6 +34,8 @@ public class Timer : MonoBehaviour
         }
 
         textUpdate();
+
+        
     }
 
     void textUpdate() 
