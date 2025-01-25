@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     public bool jumpEffect;
     public bool slamAnimation;
     public bool facingRight;
+    public bool falling;
 
     private float playerInput;
     private Rigidbody2D playerBody;
@@ -79,6 +80,20 @@ public class PlayerMovement : MonoBehaviour
             dashCount--;
         }
 
+        Falling();
+
+    }
+
+    void Falling()
+    {
+        if (playerBody.velocity.y < 0)
+        {
+            falling = true;
+        }
+        else
+        {
+            falling = false;
+        }
     }
 
     void DashCount()
