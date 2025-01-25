@@ -5,7 +5,11 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 638734021338770665
+=======
+      ticks: 638734106306824787
+>>>>>>> origin/PlayerContinued
     m_Hash: 1925581752
   m_LockFileStatus:
     m_FilePath: C:/Users/nick2/Reel-Ambition/Reel Ambition/Packages/packages-lock.json
@@ -13,7 +17,11 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 638734021338790515
+=======
+      ticks: 638734106306864872
+>>>>>>> origin/PlayerContinued
     m_Hash: 3967553062
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
