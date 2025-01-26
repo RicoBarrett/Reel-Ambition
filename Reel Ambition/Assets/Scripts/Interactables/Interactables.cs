@@ -28,12 +28,14 @@ public class Interactables : MonoBehaviour
         {
             if (this.CompareTag("Soda"))
             {
+                GameObject.Find("PlayerBubble").GetComponent<Animator>().SetTrigger("Soda");
                 playerBody.velocity = new Vector2(playerBody.velocity.x, playerBody.velocity.y + 15);
                 Destroy(gameObject);
             }
 
             if (this.CompareTag("Coffee"))
             {
+                GameObject.Find("PlayerBubble").GetComponent<Animator>().SetTrigger("Coffee");
                 StartCoroutine(CoffeeEffect());
             }
 
