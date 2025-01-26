@@ -29,7 +29,7 @@ public class Pause : MonoBehaviour
             Hud.SetActive(false);
             PauseMenu.SetActive(false);
         }
-        else if(SceneManager.GetActiveScene().name == "Demo Level") 
+        else 
         {
             PauseMenu.SetActive(false);
             MainMenu.SetActive(false);
