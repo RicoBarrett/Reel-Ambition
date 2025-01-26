@@ -11,8 +11,8 @@ public class ElevatorAnimation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        elavatorCollider = GameObject.Find("Collider");
-        boxCollider = elavatorCollider.GetComponent<OpenElevator>();
+        //elavatorCollider = GameObject.Find("Collider");
+        //boxCollider = elavatorCollider.GetComponent<OpenElevator>();
 
     }
 
@@ -21,14 +21,15 @@ public class ElevatorAnimation : MonoBehaviour
     {
         if (boxCollider.open == true)
         {
-
-            animator.SetTrigger("OpenTrigger");
+            if(animator != null) 
+                animator.SetTrigger("OpenTrigger");
 
         }
 
         if (boxCollider.open == false)
         {
-            animator.ResetTrigger("OpenTrigger");
+            if(animator != null)
+                animator.ResetTrigger("OpenTrigger");
 
         }
     }
