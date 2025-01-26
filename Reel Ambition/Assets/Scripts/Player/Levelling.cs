@@ -25,7 +25,7 @@ public class Levelling : MonoBehaviour
     void Start()
     {
         manager = GameObject.Find("Manager");
-        //level = manager.GetComponent<PermanentPowers>().playerLevel;
+        level = manager.GetComponent<PermanentPowers>().playerLevel;
         animator = this.GetComponent<Animator>();
         player = GameObject.Find("Player");
         playerMovement = player.GetComponent<PlayerMovement>();

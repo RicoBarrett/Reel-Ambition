@@ -15,11 +15,19 @@ C:/Users/nick2/Reel-Ambition/Reel Ambition
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 50622
 Successfully changed project path to: C:/Users/nick2/Reel-Ambition/Reel Ambition
 C:/Users/nick2/Reel-Ambition/Reel Ambition
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 46.10 ms, found 3 plugins.
+=======
+49510
+Successfully changed project path to: G:/st20300362/GameJam/Reel-Ambition/Reel Ambition
+G:/st20300362/GameJam/Reel-Ambition/Reel Ambition
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 94.48 ms, found 3 plugins.
+>>>>>>> origin/Fuuuuuuuck
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -32,6 +40,7 @@ Direct3D:
     VRAM:     5921 MB
     Driver:   32.0.15.6614
 Initialize mono
+<<<<<<< HEAD
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
@@ -48,11 +57,30 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (399ms)
 		BeginReloadAssembly (37ms)
+=======
+Mono path[0] = 'C:/Users/st20300362/Downloads/Unity 2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/st20300362/Downloads/Unity 2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/st20300362/Downloads/Unity 2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/st20300362/Downloads/Unity 2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003556 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 68.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.572 seconds
+Domain Reload Profiling:
+	ReloadAssembly (572ms)
+		BeginReloadAssembly (105ms)
+>>>>>>> origin/Fuuuuuuuck
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 		EndReloadAssembly (314ms)
 			LoadAssemblies (35ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -67,18 +95,39 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (10ms)
 				ProcessInitializeOnLoadAttributes (59ms)
 				ProcessInitializeOnLoadMethodAttributes (20ms)
+=======
+		EndReloadAssembly (403ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (105ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (180ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (66ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+>>>>>>> origin/Fuuuuuuuck
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.003442 seconds.
+=======
+Registered in 0.057058 seconds.
+>>>>>>> origin/Fuuuuuuuck
 Begin MonoManager ReloadAssembly
 OnLevelWasLoaded was found on SceneController
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
 Native extension for WindowsStandalone target not found
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 41.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -86,10 +135,20 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (844ms)
 		BeginReloadAssembly (103ms)
+=======
+Refreshing native plugins compatible for Editor in 50.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.122 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1135ms)
+		BeginReloadAssembly (156ms)
+>>>>>>> origin/Fuuuuuuuck
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (15ms)
 		EndReloadAssembly (697ms)
 			LoadAssemblies (73ms)
@@ -98,29 +157,56 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (30ms)
 			SetupLoadedEditorAssemblies (295ms)
+=======
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (915ms)
+			LoadAssemblies (239ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (344ms)
+>>>>>>> origin/Fuuuuuuuck
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< HEAD
 				RefreshPlugins (42ms)
 				BeforeProcessingInitializeOnLoad (63ms)
 				ProcessInitializeOnLoadAttributes (163ms)
 				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (6ms)
+=======
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (7ms)
+>>>>>>> origin/Fuuuuuuuck
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+<<<<<<< HEAD
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+=======
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+>>>>>>> origin/Fuuuuuuuck
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2265 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 100.2 MB.
 System memory in use after: 100.3 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2702.
+<<<<<<< HEAD
 Total: 2.629900 ms (FindLiveObjects: 0.170500 ms CreateObjectMapping: 0.052500 ms MarkObjects: 2.314400 ms  DeleteObjects: 0.090800 ms)
+=======
+Total: 2.045000 ms (FindLiveObjects: 0.122600 ms CreateObjectMapping: 0.051100 ms MarkObjects: 1.807500 ms  DeleteObjects: 0.062900 ms)
+>>>>>>> origin/Fuuuuuuuck
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,6 +221,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   path: Assets/Scenes/Demo Level.unity
   artifactKey: Guid(26b0e77fd3d2e854d8d45277c5c13138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Demo Level.unity using Guid(26b0e77fd3d2e854d8d45277c5c13138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa87fee80be65d66e8f74bf3878f5fb') in 0.014186 seconds 
@@ -796,6 +883,167 @@ System memory in use after: 98.7 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2724.
 Total: 2.619500 ms (FindLiveObjects: 0.137000 ms CreateObjectMapping: 0.054700 ms MarkObjects: 2.408400 ms  DeleteObjects: 0.018300 ms)
+=======
+  path: Assets/Animations/Finley/LevelFour/RunLevelFour.anim
+  artifactKey: Guid(e926b022554714043a137054b10e717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelFour/RunLevelFour.anim using Guid(e926b022554714043a137054b10e717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d302153a2d48a49d363568785d7a40c') in 0.077681 seconds 
+  Import took 0.082095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001723 seconds.
+  path: Assets/Animations/Finley/LevelFour/FinleyLevelFour.controller
+  artifactKey: Guid(620c6c1c92e4f8b43ae4e70e85b2e528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelFour/FinleyLevelFour.controller using Guid(620c6c1c92e4f8b43ae4e70e85b2e528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4224397e763cf7395bc2f0e62a1e3c5') in 0.043377 seconds 
+  Import took 0.048397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.997212 seconds.
+  path: Assets/Animations/Finley/LevelFour/FallLevelFour.anim
+  artifactKey: Guid(bedce76213f931444906fc803cc4f141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelFour/FallLevelFour.anim using Guid(bedce76213f931444906fc803cc4f141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d42af924459591ee710df2404536e1') in 0.025778 seconds 
+  Import took 0.030385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.127804 seconds.
+  path: Assets/Animations/Finley/LevelFour/HurtLevelFour.anim
+  artifactKey: Guid(2a8e1f325c5f1b84990d24eb3ac216c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelFour/HurtLevelFour.anim using Guid(2a8e1f325c5f1b84990d24eb3ac216c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6953ca794046f3f33ddbc845dacaf826') in 0.025382 seconds 
+  Import took 0.029854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.831842 seconds.
+  path: Assets/Animations/Finley/LevelFour/IdleLevelFour.anim
+  artifactKey: Guid(34bfbf048b992cb47883604e4bcc47d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelFour/IdleLevelFour.anim using Guid(34bfbf048b992cb47883604e4bcc47d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee13e9d592f5b1a550285baff787532f') in 0.025009 seconds 
+  Import took 0.029728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.435767 seconds.
+  path: Assets/Animations/Finley/LevelFour/JumpLevelFour.anim
+  artifactKey: Guid(a0ffdbc247fa38b45b76266467216c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelFour/JumpLevelFour.anim using Guid(a0ffdbc247fa38b45b76266467216c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4c3e65ee0ebf39ccef7030fd533a60') in 0.025992 seconds 
+  Import took 0.032122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.188640 seconds.
+  path: Assets/Animations/Finley/LevelOne/FallLevelOne.anim
+  artifactKey: Guid(4cb15331384f9304a964c301fb36c53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelOne/FallLevelOne.anim using Guid(4cb15331384f9304a964c301fb36c53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fccb467e8eb9f91c847ce2a6ab11f00') in 0.024466 seconds 
+  Import took 0.029077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.134686 seconds.
+  path: Assets/Animations/Finley/LevelOne/HurtLevelOne.anim
+  artifactKey: Guid(ee260731cbe34b049bd43574609c0bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelOne/HurtLevelOne.anim using Guid(ee260731cbe34b049bd43574609c0bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68786aeb80d457d71266932581c5c6c8') in 0.070082 seconds 
+  Import took 0.075331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.547187 seconds.
+  path: Assets/Animations/Finley/LevelOne/IdleLevelOne.anim
+  artifactKey: Guid(6ef047b252038a745a043d0d04928019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelOne/IdleLevelOne.anim using Guid(6ef047b252038a745a043d0d04928019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e096be589d4b29bad6ae850726511d2') in 0.026376 seconds 
+  Import took 0.031074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.290051 seconds.
+  path: Assets/Animations/Finley/LevelOne/RunLevelOne.anim
+  artifactKey: Guid(c64f99e55a053514fa5bae9a3dacf223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelOne/RunLevelOne.anim using Guid(c64f99e55a053514fa5bae9a3dacf223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77545a1f426774f60083cfa8d744492a') in 0.025379 seconds 
+  Import took 0.030182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.972098 seconds.
+  path: Assets/Animations/Finley/LevelThree/FallLevelThree.anim
+  artifactKey: Guid(e50b3b0cb3904a94c86cf0ec56256497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelThree/FallLevelThree.anim using Guid(e50b3b0cb3904a94c86cf0ec56256497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709269990c86eaabfb183abbff2fc927') in 0.026207 seconds 
+  Import took 0.031174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.836376 seconds.
+  path: Assets/Animations/Finley/LevelThree/HurtLevelThree.anim
+  artifactKey: Guid(b17c8c06d3419ea438725dcda6003ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelThree/HurtLevelThree.anim using Guid(b17c8c06d3419ea438725dcda6003ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ed8dffa6e055f9d30fd0833dcd6d2e') in 0.024800 seconds 
+  Import took 0.029348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.669465 seconds.
+  path: Assets/Animations/Finley/LevelThree/IdleLevelThree.anim
+  artifactKey: Guid(78af6ee78ab3ba74ab721963779f007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelThree/IdleLevelThree.anim using Guid(78af6ee78ab3ba74ab721963779f007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc6f83ee10634553381cae1fbb08b03') in 0.026571 seconds 
+  Import took 0.031034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.515383 seconds.
+  path: Assets/Animations/Finley/LevelThree/JumpLevelThree.anim
+  artifactKey: Guid(b44f8839e2897984dabe3714107628c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelThree/JumpLevelThree.anim using Guid(b44f8839e2897984dabe3714107628c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47788d85d0805fddc55e9d4d226197e') in 0.027160 seconds 
+  Import took 0.031301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.594418 seconds.
+  path: Assets/Animations/Finley/LevelThree/RunLevelThree.anim
+  artifactKey: Guid(5d67b587dc9526646b1e188bcf03b9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelThree/RunLevelThree.anim using Guid(5d67b587dc9526646b1e188bcf03b9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b01d079c4f2c17eb361fa011e6370e') in 0.032786 seconds 
+  Import took 0.044963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.688906 seconds.
+  path: Assets/Animations/Finley/LevelTwo/FallLevelTwo.anim
+  artifactKey: Guid(3fc3307e543e7bb40a85129601a2ee2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelTwo/FallLevelTwo.anim using Guid(3fc3307e543e7bb40a85129601a2ee2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aad9ce54260916ec747b640cd132f96') in 0.026271 seconds 
+  Import took 0.037977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.179667 seconds.
+  path: Assets/Animations/Finley/LevelTwo/HurtLevelTwo.anim
+  artifactKey: Guid(1411696b6f2866f43b8e33b66955e8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelTwo/HurtLevelTwo.anim using Guid(1411696b6f2866f43b8e33b66955e8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe082cfcc7530907a7e1be5fd038670') in 0.026850 seconds 
+  Import took 0.038535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.558026 seconds.
+  path: Assets/Animations/Finley/LevelTwo/IdleLevelTwo.anim
+  artifactKey: Guid(f4a632266561c6046ab354c208bc584b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelTwo/IdleLevelTwo.anim using Guid(f4a632266561c6046ab354c208bc584b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0de1e3987baa4699f7c6c151843e0a8') in 0.027801 seconds 
+  Import took 0.032698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.411888 seconds.
+  path: Assets/Animations/Finley/LevelTwo/RunLevelTwo.anim
+  artifactKey: Guid(a66db3868b954da4d89077f8a3551a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelTwo/RunLevelTwo.anim using Guid(a66db3868b954da4d89077f8a3551a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1becf92c77d25445daa1fa2251b19cb8') in 0.026626 seconds 
+  Import took 0.038973 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 40.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 54.1 MB.
+System memory in use after: 54.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2702.
+Total: 2.928300 ms (FindLiveObjects: 0.137100 ms CreateObjectMapping: 0.051300 ms MarkObjects: 2.722300 ms  DeleteObjects: 0.016600 ms)
+>>>>>>> origin/Fuuuuuuuck
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -808,4 +1056,12 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 273.556044 seconds.
+  path: Assets/Rixitic - 2D Sidescroller Office Tileset/Elevator.png
+  artifactKey: Guid(121cc16225f29034e9e673b2ba098e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rixitic - 2D Sidescroller Office Tileset/Elevator.png using Guid(121cc16225f29034e9e673b2ba098e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a1c597cadc9a4ae3a3463f5d53ab34') in 0.126480 seconds 
+  Import took 0.132270 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
