@@ -4,16 +4,28 @@ using UnityEngine;
 
 public class PlatformPassthrough : MonoBehaviour
 {
+    public Rigidbody2D playerBody;
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerBody = GameObject.Find("Player").GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            if (playerBody.velocity.y > 0.0f)
+            {
+                StartCoroutine(Passthrough());
+            }
+        }
     }
 
     private void OnTriggerStay2D(Collider2D other)
