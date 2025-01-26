@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 1165779665500863906}
   - component: {fileID: 1700843806}
   - component: {fileID: 5538685143886043793}
+  - component: {fileID: 1519696760}
+  - component: {fileID: 1519696765}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Manager
@@ -74,6 +76,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &5538685143886043793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3481727707527819040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bcc5eb621ffab34cacf04a7d35dd568, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerBubble: {fileID: 0}
+  bubbles: []
+  health: 100
+--- !u!114 &1519696760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3481727707527819040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 338c7ca6e0582b6409c4870d56c5c005, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerLevel: 1
+--- !u!114 &1519696765
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

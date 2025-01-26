@@ -15,6 +15,8 @@ public class Health : MonoBehaviour
     [SerializeField]
     int health = 100;
 
+    float time = 0;
+
     // Start is called before the first frame update
     public void Start()
     {
@@ -48,12 +50,20 @@ public class Health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        time += Time.deltaTime;
+
         if(health <= 0)
         {
             GetComponent<SceneController>().LoadMenu();
         }
         if (health > 100)
             health = 100;
+
+        if (time > 3)
+        {
+            ReduceHealth(1);
+            time = 0;
+        }
 
         
         UpdateHealthBar();
@@ -94,11 +104,13 @@ public class Health : MonoBehaviour
 
     public void BubbleShrink()
     {
-        float shrink = health / 1000;
+        float shrink = (float)health / 1000;
 
-        if (PlayerBubble != null)
-            PlayerBubble.transform.localScale.Set(shrink, shrink, 0);
+        Debug.Log(shrink);
 
+        Vector3 vector = new Vector3(shrink, shrink, 0);
+
+        PlayerBubble.transform.localScale = vector;
     }
 
 }
