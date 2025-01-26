@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: f6de3196df620ec4eb985b15225775ed
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1108966828640267200
+    second: finley_tie_idle-Sheet_0
+  - first:
+      213: -5252348944129955630
+    second: finley_tie_idle-Sheet_1
+  - first:
+      213: -2140970765187739752
+    second: finley_tie_idle-Sheet_2
+  - first:
+      213: -7380970707116382673
+    second: finley_tie_idle-Sheet_3
+  - first:
+      213: -7966696415282962686
+    second: finley_tie_idle-Sheet_4
+  - first:
+      213: 2851265180610726645
+    second: finley_tie_idle-Sheet_5
+  - first:
+      213: 4717885170558515421
+    second: finley_tie_idle-Sheet_6
+  - first:
+      213: 5285251482697966145
+    second: finley_tie_idle-Sheet_7
+  - first:
+      213: 2360571714069061606
+    second: finley_tie_idle-Sheet_8
+  - first:
+      213: 6290152006530840458
+    second: finley_tie_idle-Sheet_9
+  - first:
+      213: -2831147892215818015
+    second: finley_tie_idle-Sheet_10
+  - first:
+      213: 2743855411674470844
+    second: finley_tie_idle-Sheet_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +77,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +111,273 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: finley_tie_idle-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 11
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb6bc08477d36f00800000000000000
+      internalID: 1108966828640267200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_tie_idle-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 11
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d86cb4a678eb17b0800000000000000
+      internalID: -5252348944129955630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_tie_idle-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 11
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f0d72be6eb942e0800000000000000
+      internalID: -2140970765187739752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_tie_idle-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 11
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26a3c87f36819990800000000000000
+      internalID: -7380970707116382673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_tie_idle-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 11
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f5ea5d1db907190800000000000000
+      internalID: -7966696415282962686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_tie_idle-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 11
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa0eba339ab19720800000000000000
+      internalID: 2851265180610726645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_tie_idle-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 11
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd83932f09b497140800000000000000
+      internalID: 4717885170558515421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_tie_idle-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 11
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142a1d6983cf85940800000000000000
+      internalID: 5285251482697966145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_tie_idle-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 11
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efdbe3977f62c020800000000000000
+      internalID: 2360571714069061606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_tie_idle-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 11
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a873b7c5ceb1b4750800000000000000
+      internalID: 6290152006530840458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_tie_idle-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 11
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e851e9fdfdb5b8d0800000000000000
+      internalID: -2831147892215818015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_tie_idle-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 11
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9d3e795f1241620800000000000000
+      internalID: 2743855411674470844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

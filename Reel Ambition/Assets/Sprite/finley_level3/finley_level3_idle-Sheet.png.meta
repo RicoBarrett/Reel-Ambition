@@ -1,7 +1,52 @@
 fileFormatVersion: 2
 guid: a471d8634db67f646a9ac4b27d70879f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2460093406486692914
+    second: finley_level3_idle-Sheet_0
+  - first:
+      213: 1917674294231225946
+    second: finley_level3_idle-Sheet_1
+  - first:
+      213: -796215744613610871
+    second: finley_level3_idle-Sheet_2
+  - first:
+      213: -5548832752150166199
+    second: finley_level3_idle-Sheet_3
+  - first:
+      213: -2608685046067102512
+    second: finley_level3_idle-Sheet_4
+  - first:
+      213: -7131989051175553677
+    second: finley_level3_idle-Sheet_5
+  - first:
+      213: -908530418491509619
+    second: finley_level3_idle-Sheet_6
+  - first:
+      213: 6300283582815285342
+    second: finley_level3_idle-Sheet_7
+  - first:
+      213: -5801923042619166069
+    second: finley_level3_idle-Sheet_8
+  - first:
+      213: -7545696703154911926
+    second: finley_level3_idle-Sheet_9
+  - first:
+      213: -4858006803961781026
+    second: finley_level3_idle-Sheet_10
+  - first:
+      213: 2454822107137944289
+    second: finley_level3_idle-Sheet_11
+  - first:
+      213: -1394596460847863885
+    second: finley_level3_idle-Sheet_12
+  - first:
+      213: -9037380976450537278
+    second: finley_level3_idle-Sheet_13
+  - first:
+      213: -7920746986155058349
+    second: finley_level3_idle-Sheet_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +86,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +120,336 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: finley_level3_idle-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 11
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2348be74be1042220800000000000000
+      internalID: 2460093406486692914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_level3_idle-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 11
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56dc8e3c92fc9a10800000000000000
+      internalID: 1917674294231225946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_level3_idle-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 11
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a8bb1bff543f4f0800000000000000
+      internalID: -796215744613610871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_level3_idle-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 11
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945490ac2069ef2b0800000000000000
+      internalID: -5548832752150166199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_level3_idle-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 11
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcfb42a5c61ccbd0800000000000000
+      internalID: -2608685046067102512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_level3_idle-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 11
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375b4beaeb5160d90800000000000000
+      internalID: -7131989051175553677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_level3_idle-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 11
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d843d22e5604463f0800000000000000
+      internalID: -908530418491509619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_level3_idle-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 11
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e503ee9c98a1f6750800000000000000
+      internalID: 6300283582815285342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_level3_idle-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 11
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82f78e8bbd6b7fa0800000000000000
+      internalID: -5801923042619166069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_level3_idle-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 11
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a458d99c3dc484790800000000000000
+      internalID: -7545696703154911926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_level3_idle-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 11
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed46d65fc84e49cb0800000000000000
+      internalID: -4858006803961781026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_level3_idle-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 11
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eaabb243b7411220800000000000000
+      internalID: 2454822107137944289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_level3_idle-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 11
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7652268e565ace0800000000000000
+      internalID: -1394596460847863885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_level3_idle-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 11
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8face42e5c49280800000000000000
+      internalID: -9037380976450537278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finley_level3_idle-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 11
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b5b7ef49ad31290800000000000000
+      internalID: -7920746986155058349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
