@@ -11,8 +11,8 @@ public class ElevatorAnimation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //elavatorCollider = GameObject.Find("Collider");
-        //boxCollider = elavatorCollider.GetComponent<OpenElevator>();
+        elavatorCollider = GameObject.Find("Collider");
+        boxCollider = elavatorCollider.GetComponent<OpenElevator>();
 
     }
 

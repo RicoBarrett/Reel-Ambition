@@ -39,7 +39,7 @@ public class Pause : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        HandleUI();
 
         if (Input.GetKeyUp(KeyCode.Escape) && !pause)
         {
@@ -107,5 +107,10 @@ public class Pause : MonoBehaviour
         {
             button.GetComponent<Animator>().SetBool("Hover", false);
         }
+    }
+
+    void HandleUI()
+    {
+        float unscaledDeltaTime = Time.unscaledDeltaTime;
     }
 }
