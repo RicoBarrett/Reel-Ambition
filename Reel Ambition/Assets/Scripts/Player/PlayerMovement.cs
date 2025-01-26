@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     public bool facingRight;
     public bool falling;
     public bool hurt;
+    public int jumpCountCount;
 
     private float playerInput;
     private Rigidbody2D playerBody;
@@ -29,9 +30,10 @@ public class PlayerMovement : MonoBehaviour
 
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         playerBody = GetComponent<Rigidbody2D>();
+
 
         speed = 5f;
         jumpSpeed = 8f;
@@ -151,7 +153,7 @@ public class PlayerMovement : MonoBehaviour
             jumpAnimation = false;
             slamAnimation = false;
 
-            jumpCount = 1;
+            jumpCount = jumpCountCount;
         }
     }
 

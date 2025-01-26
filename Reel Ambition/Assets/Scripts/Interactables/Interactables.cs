@@ -42,19 +42,6 @@ public class Interactables : MonoBehaviour
                 manager.flowerPicked = true;
                 Destroy(gameObject);
             }
-
-            if (this.CompareTag("Secretary"))
-            {
-                if (manager.flowerPicked) 
-                {
-                    Debug.Log("Let's fuck!!");
-                    manager.flowerPicked = false;
-                }
-                else
-                {
-                    Debug.Log("Ew");
-                }
-            }
         }
     }
 

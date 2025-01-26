@@ -19,6 +19,7 @@ ScriptsOnlyBuild:
     - SceneController
     - Score
     - ScoreCounter
+    - SecretaryAnimations
     - Timer
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -42,6 +43,14 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -91,55 +100,57 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1484}
     - Class: 114
-      Script: {instanceID: 1552}
+      Script: {instanceID: 1532}
     - Class: 114
-      Script: {instanceID: 1890}
+      Script: {instanceID: 1870}
     - Class: 114
-      Script: {instanceID: 2454}
+      Script: {instanceID: 2434}
     - Class: 114
-      Script: {instanceID: 2714}
+      Script: {instanceID: 2694}
     - Class: 114
-      Script: {instanceID: 2726}
+      Script: {instanceID: 2706}
     - Class: 114
-      Script: {instanceID: 2742}
+      Script: {instanceID: 2722}
     - Class: 114
-      Script: {instanceID: 2968}
+      Script: {instanceID: 2948}
     - Class: 114
-      Script: {instanceID: 3038}
+      Script: {instanceID: 3018}
     - Class: 114
-      Script: {instanceID: 3158}
+      Script: {instanceID: 3138}
     - Class: 114
-      Script: {instanceID: 3350}
+      Script: {instanceID: 3330}
     - Class: 114
-      Script: {instanceID: 3400}
+      Script: {instanceID: 3380}
     - Class: 114
-      Script: {instanceID: 3426}
+      Script: {instanceID: 3406}
     - Class: 114
-      Script: {instanceID: 3542}
+      Script: {instanceID: 3522}
     - Class: 114
-      Script: {instanceID: 3630}
+      Script: {instanceID: 3610}
     - Class: 114
-      Script: {instanceID: 3786}
+      Script: {instanceID: 3766}
     - Class: 114
-      Script: {instanceID: 3796}
+      Script: {instanceID: 3776}
     - Class: 114
-      Script: {instanceID: 3954}
+      Script: {instanceID: 3934}
     - Class: 114
-      Script: {instanceID: 4050}
+      Script: {instanceID: 4030}
     - Class: 114
-      Script: {instanceID: 4054}
+      Script: {instanceID: 4034}
     - Class: 114
-      Script: {instanceID: 4332}
+      Script: {instanceID: 4312}
     - Class: 114
-      Script: {instanceID: 5224}
+      Script: {instanceID: 5204}
     - Class: 114
-      Script: {instanceID: 5448}
+      Script: {instanceID: 5428}
     - Class: 114
-      Script: {instanceID: 5454}
+      Script: {instanceID: 5434}
     - Class: 114
-      Script: {instanceID: 5458}
+      Script: {instanceID: 5438}
     - Class: 114
-      Script: {instanceID: 5848}
+      Script: {instanceID: 5712}
+    - Class: 114
+      Script: {instanceID: 5830}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -200,45 +211,45 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1484}
     - Class: 114
-      Script: {instanceID: 1890}
+      Script: {instanceID: 1870}
     - Class: 114
-      Script: {instanceID: 2300}
+      Script: {instanceID: 2280}
     - Class: 114
-      Script: {instanceID: 2454}
+      Script: {instanceID: 2434}
     - Class: 114
-      Script: {instanceID: 2714}
+      Script: {instanceID: 2694}
     - Class: 114
-      Script: {instanceID: 2726}
+      Script: {instanceID: 2706}
     - Class: 114
-      Script: {instanceID: 2742}
+      Script: {instanceID: 2722}
     - Class: 114
-      Script: {instanceID: 2918}
+      Script: {instanceID: 2898}
     - Class: 114
-      Script: {instanceID: 2968}
+      Script: {instanceID: 2948}
     - Class: 114
-      Script: {instanceID: 3158}
+      Script: {instanceID: 3138}
     - Class: 114
-      Script: {instanceID: 3400}
+      Script: {instanceID: 3380}
     - Class: 114
-      Script: {instanceID: 3410}
+      Script: {instanceID: 3390}
     - Class: 114
-      Script: {instanceID: 3426}
+      Script: {instanceID: 3406}
     - Class: 114
-      Script: {instanceID: 3542}
+      Script: {instanceID: 3522}
     - Class: 114
-      Script: {instanceID: 3954}
+      Script: {instanceID: 3934}
     - Class: 114
-      Script: {instanceID: 4332}
+      Script: {instanceID: 4312}
     - Class: 114
-      Script: {instanceID: 4812}
+      Script: {instanceID: 4792}
     - Class: 114
-      Script: {instanceID: 4974}
+      Script: {instanceID: 4954}
     - Class: 114
-      Script: {instanceID: 5380}
+      Script: {instanceID: 5360}
     - Class: 114
-      Script: {instanceID: 5454}
+      Script: {instanceID: 5434}
     - Class: 114
-      Script: {instanceID: 5458}
+      Script: {instanceID: 5438}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -444,7 +455,7 @@ ScriptsOnlyBuild:
     className: ScoreCounter
   - hash:
       serializedVersion: 2
-      Hash: 355cabed5fa6512ec19101e72644470f
+      Hash: 413455ba4a8e41a7e403beef92b8052f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerMovement
@@ -510,7 +521,7 @@ ScriptsOnlyBuild:
     className: TMP_TextSelector_A
   - hash:
       serializedVersion: 2
-      Hash: 0814aa51b64e1924db4befb7a79bab2c
+      Hash: c1bdbe6312f649afcaba530aed8a02a4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Levelling
@@ -1054,6 +1065,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
     className: BufferManager
+  - hash:
+      serializedVersion: 2
+      Hash: 69e65191d0e65a963060712dbb6cdee3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SecretaryAnimations
   - hash:
       serializedVersion: 2
       Hash: b6514f552bd2ee9e736a5678aa7f7de3
