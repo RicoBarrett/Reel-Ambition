@@ -1,7 +1,121 @@
 fileFormatVersion: 2
 guid: 0e5633dda345fa647b2bdb5e3c38ee26
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4917460813126183594
+    second: sec_flower_given-Sheet_0
+  - first:
+      213: -2375671073236461076
+    second: sec_flower_given-Sheet_1
+  - first:
+      213: 2672832234718738191
+    second: sec_flower_given-Sheet_2
+  - first:
+      213: -5125706721874516081
+    second: sec_flower_given-Sheet_3
+  - first:
+      213: 1574800888855912617
+    second: sec_flower_given-Sheet_4
+  - first:
+      213: -5949750654127813619
+    second: sec_flower_given-Sheet_5
+  - first:
+      213: 3178717723068091757
+    second: sec_flower_given-Sheet_6
+  - first:
+      213: 395709934865606467
+    second: sec_flower_given-Sheet_7
+  - first:
+      213: 1084386486850447219
+    second: sec_flower_given-Sheet_8
+  - first:
+      213: -1703651279265610072
+    second: sec_flower_given-Sheet_9
+  - first:
+      213: 3982120439784429610
+    second: sec_flower_given-Sheet_10
+  - first:
+      213: 2359794950094861348
+    second: sec_flower_given-Sheet_11
+  - first:
+      213: 8333920171426206177
+    second: sec_flower_given-Sheet_12
+  - first:
+      213: 956101453326988301
+    second: sec_flower_given-Sheet_13
+  - first:
+      213: 2815250061623153804
+    second: sec_flower_given-Sheet_14
+  - first:
+      213: -1324776860425071371
+    second: sec_flower_given-Sheet_15
+  - first:
+      213: -5327596022327913026
+    second: sec_flower_given-Sheet_16
+  - first:
+      213: 6681799690739099279
+    second: sec_flower_given-Sheet_17
+  - first:
+      213: 758411943950882705
+    second: sec_flower_given-Sheet_18
+  - first:
+      213: 7399966817868270584
+    second: sec_flower_given-Sheet_19
+  - first:
+      213: -1961749900090401717
+    second: sec_flower_given-Sheet_20
+  - first:
+      213: -2782089301757462934
+    second: sec_flower_given-Sheet_21
+  - first:
+      213: -1743745305181237863
+    second: sec_flower_given-Sheet_22
+  - first:
+      213: 2230003957428108719
+    second: sec_flower_given-Sheet_23
+  - first:
+      213: 7263297716491766269
+    second: sec_flower_given-Sheet_24
+  - first:
+      213: -5739423166122011119
+    second: sec_flower_given-Sheet_25
+  - first:
+      213: -2895168540039524516
+    second: sec_flower_given-Sheet_26
+  - first:
+      213: -449734604736940948
+    second: sec_flower_given-Sheet_27
+  - first:
+      213: 5351615379318162102
+    second: sec_flower_given-Sheet_28
+  - first:
+      213: -6282491684164354506
+    second: sec_flower_given-Sheet_29
+  - first:
+      213: -7408188750984433366
+    second: sec_flower_given-Sheet_30
+  - first:
+      213: -8417005477767318487
+    second: sec_flower_given-Sheet_31
+  - first:
+      213: 306421450438144956
+    second: sec_flower_given-Sheet_32
+  - first:
+      213: 2684070412018964075
+    second: sec_flower_given-Sheet_33
+  - first:
+      213: 7254609596136540611
+    second: sec_flower_given-Sheet_34
+  - first:
+      213: 3361644875834476118
+    second: sec_flower_given-Sheet_35
+  - first:
+      213: -3967194833988136641
+    second: sec_flower_given-Sheet_36
+  - first:
+      213: -6237231944676265726
+    second: sec_flower_given-Sheet_37
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +155,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +189,441 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sec_flower_given-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655d5bcb17ba1cbb0800000000000000
+      internalID: -4917460813126183594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sec_flower_given-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb47b83d96f1b660800000000000000
+      internalID: 7399966817868270584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sec_flower_given-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9d198eebbe70fd0800000000000000
+      internalID: -2375671073236461076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sec_flower_given-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07bf9691cec71520800000000000000
+      internalID: 2672832234718738191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sec_flower_given-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8766d3c4e4ddd8b0800000000000000
+      internalID: -5125706721874516081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sec_flower_given-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0e9349011dad510800000000000000
+      internalID: 1574800888855912617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sec_flower_given-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c409e9d4d3e6da0800000000000000
+      internalID: -5949750654127813619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sec_flower_given-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d46b47de21d1c20800000000000000
+      internalID: 3178717723068091757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sec_flower_given-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347e1c5d618dd7500800000000000000
+      internalID: 395709934865606467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sec_flower_given-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37764f3b3c38c0f00800000000000000
+      internalID: 1084386486850447219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sec_flower_given-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6cb36103a6b58e0800000000000000
+      internalID: -1703651279265610072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sec_flower_given-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a285c2a1175534730800000000000000
+      internalID: 3982120439784429610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sec_flower_given-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4243a2f110dafb020800000000000000
+      internalID: 2359794950094861348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sec_flower_given-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1525cad3808a370800000000000000
+      internalID: 8333920171426206177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sec_flower_given-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d043ac6c431c44d00800000000000000
+      internalID: 956101453326988301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sec_flower_given-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84d1f4e307c11720800000000000000
+      internalID: 2815250061623153804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sec_flower_given-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4d4b3e6727d9de0800000000000000
+      internalID: -1324776860425071371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sec_flower_given-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb55c5ef4a39016b0800000000000000
+      internalID: -5327596022327913026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sec_flower_given-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86a1d2ca658abc50800000000000000
+      internalID: 6681799690739099279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sec_flower_given-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1971b9015ab668a00800000000000000
+      internalID: 758411943950882705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

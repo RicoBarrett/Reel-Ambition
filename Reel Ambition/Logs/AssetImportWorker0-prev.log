@@ -15,11 +15,19 @@ C:/Users/nick2/Reel-Ambition/Reel Ambition
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 57068
 Successfully changed project path to: C:/Users/nick2/Reel-Ambition/Reel Ambition
 C:/Users/nick2/Reel-Ambition/Reel Ambition
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 40.16 ms, found 3 plugins.
+=======
+60168
+Successfully changed project path to: G:/st20300362/GameJam/Reel-Ambition/Reel Ambition
+G:/st20300362/GameJam/Reel-Ambition/Reel Ambition
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 98.18 ms, found 3 plugins.
+>>>>>>> origin/FinishedProgramming
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -32,6 +40,7 @@ Direct3D:
     VRAM:     5921 MB
     Driver:   32.0.15.6614
 Initialize mono
+<<<<<<< HEAD
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
@@ -48,11 +57,30 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (448ms)
 		BeginReloadAssembly (40ms)
+=======
+Mono path[0] = 'C:/Users/st20300362/Downloads/Unity 2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/st20300362/Downloads/Unity 2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/st20300362/Downloads/Unity 2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/st20300362/Downloads/Unity 2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003917 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 64.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.604 seconds
+Domain Reload Profiling:
+	ReloadAssembly (604ms)
+		BeginReloadAssembly (129ms)
+>>>>>>> origin/FinishedProgramming
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 		EndReloadAssembly (353ms)
 			LoadAssemblies (39ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -60,25 +88,46 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (23ms)
 			SetupLoadedEditorAssemblies (146ms)
+=======
+		EndReloadAssembly (407ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (115ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (174ms)
+>>>>>>> origin/FinishedProgramming
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< HEAD
 				RefreshPlugins (41ms)
 				BeforeProcessingInitializeOnLoad (11ms)
 				ProcessInitializeOnLoadAttributes (68ms)
 				ProcessInitializeOnLoadMethodAttributes (22ms)
+=======
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (66ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+>>>>>>> origin/FinishedProgramming
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.004041 seconds.
+=======
+Registered in 0.069146 seconds.
+>>>>>>> origin/FinishedProgramming
 Begin MonoManager ReloadAssembly
 OnLevelWasLoaded was found on SceneController
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
 Native extension for WindowsStandalone target not found
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 35.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -593,10 +642,20 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (845ms)
 		BeginReloadAssembly (113ms)
+=======
+Refreshing native plugins compatible for Editor in 57.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.261 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1266ms)
+		BeginReloadAssembly (195ms)
+>>>>>>> origin/FinishedProgramming
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (31ms)
 		EndReloadAssembly (679ms)
 			LoadAssemblies (87ms)
@@ -1529,10 +1588,29 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (135ms)
 				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (5ms)
+=======
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (989ms)
+			LoadAssemblies (286ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (7ms)
+>>>>>>> origin/FinishedProgramming
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
+<<<<<<< HEAD
 OnLevelWasLoaded was found on SceneController
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
@@ -1844,6 +1922,19 @@ System memory in use after: 101.8 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2778.
 Total: 2.269800 ms (FindLiveObjects: 0.129100 ms CreateObjectMapping: 0.047100 ms MarkObjects: 2.069800 ms  DeleteObjects: 0.022800 ms)
+=======
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2264 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.0 MB.
+System memory in use after: 100.1 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2700.
+Total: 2.065900 ms (FindLiveObjects: 0.115300 ms CreateObjectMapping: 0.048800 ms MarkObjects: 1.841600 ms  DeleteObjects: 0.059300 ms)
+>>>>>>> origin/FinishedProgramming
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1857,6 +1948,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< HEAD
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.003440 seconds.
@@ -6525,3 +6617,179 @@ Start importing Assets/Prefabs/ManagerEnemy.prefab using Guid(3635ab54b36e39b469
   Import took 0.513446 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+=======
+Received Import Request.
+  path: Assets/Animations/Finley/LevelTwo
+  artifactKey: Guid(53a50657df2a5db488df666d748ea658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelTwo using Guid(53a50657df2a5db488df666d748ea658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9980942f136fcf520c71e3d87facdcf1') in 0.021113 seconds 
+  Import took 0.025835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.411441 seconds.
+  path: Assets/Sprite/finley_level2/finley_level2_jump-Sheet.png
+  artifactKey: Guid(06d0dd1272f986046a21a180105d42ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/finley_level2/finley_level2_jump-Sheet.png using Guid(06d0dd1272f986046a21a180105d42ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173a6c648c2549db5bd1fcb914458037') in 0.114965 seconds 
+  Import took 0.124115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.844918 seconds.
+  path: Assets/Sprite/finley_level2/finley_level2_jump-Sheet.png
+  artifactKey: Guid(06d0dd1272f986046a21a180105d42ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/finley_level2/finley_level2_jump-Sheet.png using Guid(06d0dd1272f986046a21a180105d42ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5b86d07d2ef68c99716ad9aedfd67f') in 0.123773 seconds 
+  Import took 0.128454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.225551 seconds.
+  path: Assets/Sprite/finley_level2/finley_level2_run-Sheet.png
+  artifactKey: Guid(24bb439dc69a32744b9d81d60b71fb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/finley_level2/finley_level2_run-Sheet.png using Guid(24bb439dc69a32744b9d81d60b71fb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a88ffa5e9f3082bb31b8a1f90c93550') in 0.042098 seconds 
+  Import took 0.046946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.091716 seconds.
+  path: Assets/Sprite/finley_level2/finley_level2_run-Sheet.png
+  artifactKey: Guid(24bb439dc69a32744b9d81d60b71fb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/finley_level2/finley_level2_run-Sheet.png using Guid(24bb439dc69a32744b9d81d60b71fb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04d7a4a693f46677c054c00d8f8ca20') in 0.065810 seconds 
+  Import took 0.070558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 979.131331 seconds.
+  path: Assets/Animations/Finley/LevelThree/FinleyLevelThree.controller
+  artifactKey: Guid(3569528326b0ac842923f5f6ef16faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelThree/FinleyLevelThree.controller using Guid(3569528326b0ac842923f5f6ef16faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7484bad0b7b933959c23cee0dc2f3b4c') in 0.085641 seconds 
+  Import took 0.091123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 266.430229 seconds.
+  path: Assets/Sprite/finley_level3/finley_level3_fall-Sheet.png
+  artifactKey: Guid(45a03823ae96add4e9ea7186102ca8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/finley_level3/finley_level3_fall-Sheet.png using Guid(45a03823ae96add4e9ea7186102ca8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675c0c9cf14f830b85271e122ed84257') in 0.042414 seconds 
+  Import took 0.048904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.473965 seconds.
+  path: Assets/Sprite/finley_level3/finley_level3_fall-Sheet.png
+  artifactKey: Guid(45a03823ae96add4e9ea7186102ca8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/finley_level3/finley_level3_fall-Sheet.png using Guid(45a03823ae96add4e9ea7186102ca8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d779143f6495bbaf611e6d529b3067') in 0.052157 seconds 
+  Import took 0.057378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.905762 seconds.
+  path: Assets/Sprite/finley_level3/finley_level3_jump-Sheet.png
+  artifactKey: Guid(332a50a1c00215543a6be54155489ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/finley_level3/finley_level3_jump-Sheet.png using Guid(332a50a1c00215543a6be54155489ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9278f5a3c9de9ee538396fd3a9b3153') in 0.040075 seconds 
+  Import took 0.046033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.742182 seconds.
+  path: Assets/Sprite/finley_level3/finley_level3_jump-Sheet.png
+  artifactKey: Guid(332a50a1c00215543a6be54155489ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/finley_level3/finley_level3_jump-Sheet.png using Guid(332a50a1c00215543a6be54155489ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd233274743e78bb3fa6fe00e4badbd48') in 0.093736 seconds 
+  Import took 0.099354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.165217 seconds.
+  path: Assets/Sprite/finley_level3/finley_level3_run-Sheet.png
+  artifactKey: Guid(5006e2ec154b8bc429bbf0bd699633fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/finley_level3/finley_level3_run-Sheet.png using Guid(5006e2ec154b8bc429bbf0bd699633fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f511e53d95c4d6863dd46264b95e3283') in 0.040305 seconds 
+  Import took 0.046301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.651180 seconds.
+  path: Assets/Sprite/finley_level3/finley_level3_run-Sheet.png
+  artifactKey: Guid(5006e2ec154b8bc429bbf0bd699633fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/finley_level3/finley_level3_run-Sheet.png using Guid(5006e2ec154b8bc429bbf0bd699633fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3c9ae619b5dea019dcdc7ea3beeb7f') in 0.064145 seconds 
+  Import took 0.069679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 508.511106 seconds.
+  path: Assets/Sprite/finley_level4/finley_level4_idle-Sheet.png
+  artifactKey: Guid(9f5a10b27e892fe49aeeee4d65ca4793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/finley_level4/finley_level4_idle-Sheet.png using Guid(9f5a10b27e892fe49aeeee4d65ca4793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3c11540b4ecca7cd5851abd1a771d9') in 0.040605 seconds 
+  Import took 0.047792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.369413 seconds.
+  path: Assets/Sprite/finley_level4/finley_level4_idle-Sheet.png
+  artifactKey: Guid(9f5a10b27e892fe49aeeee4d65ca4793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/finley_level4/finley_level4_idle-Sheet.png using Guid(9f5a10b27e892fe49aeeee4d65ca4793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2feb41eeda529fc33d7d4b998a0066') in 0.079742 seconds 
+  Import took 0.084702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.088613 seconds.
+  path: Assets/Sprite/finley_level4/finley_leve4_fall-Sheet.png
+  artifactKey: Guid(be7436eb1aa5cb44596dd7e02f909a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/finley_level4/finley_leve4_fall-Sheet.png using Guid(be7436eb1aa5cb44596dd7e02f909a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aabeb116a33c3b7cf99681f02164e4f') in 0.045055 seconds 
+  Import took 0.051077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.808095 seconds.
+  path: Assets/Sprite/finley_level4/finley_leve4_fall-Sheet.png
+  artifactKey: Guid(be7436eb1aa5cb44596dd7e02f909a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/finley_level4/finley_leve4_fall-Sheet.png using Guid(be7436eb1aa5cb44596dd7e02f909a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0c3b36fc8fd15a36a7bc5e60aa49c9') in 0.055227 seconds 
+  Import took 0.060679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.331928 seconds.
+  path: Assets/Sprite/finley_level4/finley_level4_jump-Sheet.png
+  artifactKey: Guid(3cf16d00f99809b40b39fdbe40d3cea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/finley_level4/finley_level4_jump-Sheet.png using Guid(3cf16d00f99809b40b39fdbe40d3cea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a858b9012c821f3d167bae357c410e7') in 0.042745 seconds 
+  Import took 0.048330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.855595 seconds.
+  path: Assets/Sprite/finley_level4/finley_level4_jump-Sheet.png
+  artifactKey: Guid(3cf16d00f99809b40b39fdbe40d3cea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/finley_level4/finley_level4_jump-Sheet.png using Guid(3cf16d00f99809b40b39fdbe40d3cea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ea7e0de169161adbfb306450f6407b') in 0.086362 seconds 
+  Import took 0.092111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.063364 seconds.
+  path: Assets/Sprite/finley_level4/finley_level4_run-Sheet.png
+  artifactKey: Guid(bcec6ea397efc974ead8752320ba12d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/finley_level4/finley_level4_run-Sheet.png using Guid(bcec6ea397efc974ead8752320ba12d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c3a297ca06b7d6683dd1a5f3074cf3') in 0.041091 seconds 
+  Import took 0.046630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.329156 seconds.
+  path: Assets/Sprite/finley_level4/finley_level4_run-Sheet.png
+  artifactKey: Guid(bcec6ea397efc974ead8752320ba12d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/finley_level4/finley_level4_run-Sheet.png using Guid(bcec6ea397efc974ead8752320ba12d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed475430516c9394001efa87fffcd325') in 0.070683 seconds 
+  Import took 0.076365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.810495 seconds.
+  path: Assets/Animations/Finley/LevelFour/RunLevelFour.anim
+  artifactKey: Guid(e926b022554714043a137054b10e717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelFour/RunLevelFour.anim using Guid(e926b022554714043a137054b10e717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bda636ef1d3b3018d003b5715fbdfb6') in 0.028502 seconds 
+  Import took 0.032629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.043761 seconds.
+  path: Assets/Animations/Finley/LevelFour/FinleyLevelFour.controller
+  artifactKey: Guid(620c6c1c92e4f8b43ae4e70e85b2e528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Finley/LevelFour/FinleyLevelFour.controller using Guid(620c6c1c92e4f8b43ae4e70e85b2e528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f0e67c7046f4d0af60add8e6cf361d') in 0.057998 seconds 
+  Import took 0.062585 seconds .
+
+>>>>>>> origin/FinishedProgramming
