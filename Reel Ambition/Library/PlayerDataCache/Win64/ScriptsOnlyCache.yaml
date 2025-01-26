@@ -43,6 +43,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+<<<<<<< HEAD
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -51,6 +52,8 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
+=======
+>>>>>>> Origin/Lucien
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -100,6 +103,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1484}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 1532}
     - Class: 114
       Script: {instanceID: 1870}
@@ -115,9 +119,25 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2948}
     - Class: 114
       Script: {instanceID: 3018}
+=======
+      Script: {instanceID: 1890}
+    - Class: 114
+      Script: {instanceID: 2454}
+    - Class: 114
+      Script: {instanceID: 2714}
+    - Class: 114
+      Script: {instanceID: 2726}
+    - Class: 114
+      Script: {instanceID: 2742}
+    - Class: 114
+      Script: {instanceID: 2968}
+    - Class: 114
+      Script: {instanceID: 3158}
+>>>>>>> Origin/Lucien
     - Class: 114
       Script: {instanceID: 3138}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 3330}
     - Class: 114
       Script: {instanceID: 3380}
@@ -141,9 +161,31 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4312}
     - Class: 114
       Script: {instanceID: 5204}
+=======
+      Script: {instanceID: 3426}
     - Class: 114
-      Script: {instanceID: 5428}
+      Script: {instanceID: 3542}
     - Class: 114
+      Script: {instanceID: 3630}
+    - Class: 114
+      Script: {instanceID: 3786}
+    - Class: 114
+      Script: {instanceID: 3796}
+    - Class: 114
+      Script: {instanceID: 3954}
+    - Class: 114
+      Script: {instanceID: 4050}
+    - Class: 114
+      Script: {instanceID: 4332}
+    - Class: 114
+      Script: {instanceID: 5224}
+    - Class: 114
+      Script: {instanceID: 5448}
+>>>>>>> Origin/Lucien
+    - Class: 114
+      Script: {instanceID: 5454}
+    - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 5434}
     - Class: 114
       Script: {instanceID: 5438}
@@ -151,6 +193,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5712}
     - Class: 114
       Script: {instanceID: 5830}
+=======
+      Script: {instanceID: 5458}
+    - Class: 114
+      Script: {instanceID: 5848}
+>>>>>>> Origin/Lucien
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -211,6 +258,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1484}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 1870}
     - Class: 114
       Script: {instanceID: 2280}
@@ -232,9 +280,29 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3380}
     - Class: 114
       Script: {instanceID: 3390}
+=======
+      Script: {instanceID: 1890}
+    - Class: 114
+      Script: {instanceID: 2300}
+    - Class: 114
+      Script: {instanceID: 2454}
+    - Class: 114
+      Script: {instanceID: 2714}
+    - Class: 114
+      Script: {instanceID: 2726}
+    - Class: 114
+      Script: {instanceID: 2742}
+    - Class: 114
+      Script: {instanceID: 2918}
+    - Class: 114
+      Script: {instanceID: 2968}
+    - Class: 114
+      Script: {instanceID: 3158}
+>>>>>>> Origin/Lucien
     - Class: 114
       Script: {instanceID: 3406}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 3522}
     - Class: 114
       Script: {instanceID: 3934}
@@ -250,6 +318,27 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5434}
     - Class: 114
       Script: {instanceID: 5438}
+=======
+      Script: {instanceID: 3410}
+    - Class: 114
+      Script: {instanceID: 3426}
+    - Class: 114
+      Script: {instanceID: 3542}
+    - Class: 114
+      Script: {instanceID: 3954}
+    - Class: 114
+      Script: {instanceID: 4332}
+    - Class: 114
+      Script: {instanceID: 4812}
+    - Class: 114
+      Script: {instanceID: 4974}
+    - Class: 114
+      Script: {instanceID: 5380}
+    - Class: 114
+      Script: {instanceID: 5454}
+    - Class: 114
+      Script: {instanceID: 5458}
+>>>>>>> Origin/Lucien
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -521,7 +610,11 @@ ScriptsOnlyBuild:
     className: TMP_TextSelector_A
   - hash:
       serializedVersion: 2
+<<<<<<< HEAD
       Hash: c1bdbe6312f649afcaba530aed8a02a4
+=======
+      Hash: 0814aa51b64e1924db4befb7a79bab2c
+>>>>>>> Origin/Lucien
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Levelling
@@ -1129,4 +1222,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Demo Level.unity
-  playerPath: G:/st20300362/GameJam/Reel Ambition.exe
+  playerPath: C:/Users/Rico/Desktop/GameJamTesting/Reel Ambition.exe
