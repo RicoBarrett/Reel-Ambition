@@ -28,7 +28,11 @@ public class Checkpoint : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+
+            Debug.Log("water cooler");
             GameObject.Find("SpawnLocation").transform.position.Set(checkpointPosition.x, checkpointPosition.y, checkpointPosition.z);
+
+            manager.GetComponent<Health>().ResetHealth();
         }
     }
 }

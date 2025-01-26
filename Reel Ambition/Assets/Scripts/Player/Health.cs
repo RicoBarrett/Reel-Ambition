@@ -109,8 +109,8 @@ public class Health : MonoBehaviour
         Debug.Log(shrink);
 
         Vector3 vector = new Vector3(shrink, shrink, 0);
-
-        PlayerBubble.transform.localScale = vector;
+        if(PlayerBubble != null)
+            PlayerBubble.transform.localScale = vector;
     }
 
 }
