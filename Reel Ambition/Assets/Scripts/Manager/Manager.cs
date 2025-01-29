@@ -10,7 +10,11 @@ public class Manager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        player = GameObject.Find("Player");
+
         CheckGameController();
+
+        SpawnPlayer();
     }
 
     void CheckGameController()
@@ -24,8 +28,8 @@ public class Manager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    public void SpawnPlayer(Vector3 pos)
+    public void SpawnPlayer()
     {
-        Instantiate(player, pos, Quaternion.identity);
+        player.transform.position = GameObject.Find("SpawnLocation").transform.position;
     }
 }

@@ -101,4 +101,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 338c7ca6e0582b6409c4870d56c5c005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerLevel: 1
+  playerLevel: 0

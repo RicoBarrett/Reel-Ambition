@@ -30,7 +30,7 @@ public class Checkpoint : MonoBehaviour
         {
 
             Debug.Log("water cooler");
-            GameObject.Find("SpawnLocation").transform.position.Set(checkpointPosition.x, checkpointPosition.y, checkpointPosition.z);
+            GameObject.Find("SpawnLocation").transform.position = checkpointPosition;
 
             manager.GetComponent<Health>().ResetHealth();
         }

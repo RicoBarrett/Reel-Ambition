@@ -408,6 +408,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1519696760, guid: c6060cf3007acda4e9dc49d8e5eea986, type: 3}
+      propertyPath: playerLevel
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3481727707527819040, guid: c6060cf3007acda4e9dc49d8e5eea986, type: 3}
       propertyPath: m_Name
       value: Manager

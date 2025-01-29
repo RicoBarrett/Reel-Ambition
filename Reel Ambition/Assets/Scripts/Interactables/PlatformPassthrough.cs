@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class PlatformPassthrough : MonoBehaviour
 {
@@ -41,8 +42,8 @@ public class PlatformPassthrough : MonoBehaviour
 
     IEnumerator Passthrough()
     {
-        gameObject.transform.parent.gameObject.GetComponent<BoxCollider2D>().enabled = false;
+        gameObject.transform.parent.gameObject.GetComponent<TilemapCollider2D>().enabled = false;
         yield return new WaitForSeconds(0.6f);
-        gameObject.transform.parent.gameObject.GetComponent<BoxCollider2D>().enabled = true;
+        gameObject.transform.parent.gameObject.GetComponent<TilemapCollider2D>().enabled = true;
     }
 }
