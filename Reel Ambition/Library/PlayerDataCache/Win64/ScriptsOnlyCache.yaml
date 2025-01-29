@@ -26,12 +26,8 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -1355,4 +1351,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Demo Level.unity
   - Assets/Scenes/Level Two.unity
   - Assets/Scenes/Level Three.unity
-  playerPath: C:/Users/ricom/Desktop/game/Reel Ambition.exe
+  playerPath: C:/Users/ricom/Desktop/Reel Ambition Demo Build/Reel Ambition.exe
